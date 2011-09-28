@@ -1,0 +1,38 @@
+body {
+  background: #0c2538;
+  font-family: Arial, sans-serif;
+}
+body h1 {
+  color: #ede059;
+  font-family: Times New Roman, Georgia, serif;
+}
+.button {
+  text-decoration: none;
+  display: block;
+  padding: 1em 2em;
+  display: inline-block;
+  *display: block;
+  zoom: 1;
+  color: #638270;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABmJLR0QA/wD/AP+gvaeTAAAADUlEQVQImWO4Pc90EwAGZwJhPHhZyAAAAABJRU5ErkJggg==") repeat;
+  -webkit-border-radius: 1em;
+  -moz-border-radius: 1em;
+  border-radius: 1em;
+  -webkit-transition: box-shadow 1s;
+  -moz-transition: box-shadow 1s;
+  transition: box-shadow 1s;
+}
+.button:hover {
+  color: #0c2538;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8CAIAAAAok0etAAAABmJLR0QA/wD/AP+gvaeTAAAAQUlEQVQImYWOwQ0AIAjEDPM7l7O4RA8fGkVN9EF4HC2XaskmKQxjuwFbxnYnAx1szJans7xZXn+YntvlptDz07EBODWyOVdpWH8AAAAASUVORK5CYII=");
+  -webkit-box-shadow: 0 0 20px #fff;
+  -moz-box-shadow: 0 0 20px #fff;
+  box-shadow: 0 0 20px #fff;
+}
+.button:active {
+  color: #000;
+  -webkit-box-shadow: 0 0 20px #000;
+  -moz-box-shadow: 0 0 20px #000;
+  box-shadow: 0 0 20px #000;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8CAIAAAAok0etAAAABmJLR0QA/wD/AP+gvaeTAAAANElEQVQImWNI9xBiQgXMUJqRiZmZGasMnI8ugCKHMAeiF80sDMPw2cMMNwfTLEYUwwi4EQCZQgKwzvYTKgAAAABJRU5ErkJggg==");
+}

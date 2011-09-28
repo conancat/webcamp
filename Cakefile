@@ -4,6 +4,7 @@ sys = require 'sys'
 fs = require 'fs'
 path = require 'path'
 jade = require 'jade'
+discount = require 'discount'
 
 # some variables
 baseDir = path.dirname(process.path) 

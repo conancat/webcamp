@@ -1,6 +1,61 @@
-// Stylus
-// Search Github for "stylus"
+// Nodejs
+// Stylus: http://learnboost.github.com/stylus/
+// Nib: https://github.com/visionmedia/nib
+//
+// Ruby
+// Sass: http://sass-lang.com/
+// Compass: http://compass-style.org/
+//
+// Javascript
+// LESS: http://lesscss.org/
 
 //- This thing will be up at conancat.github.com/webcamp :) 
 
 @import "nib"
+
+$darkest = #0C2538
+$darker = #2B434F
+$mid = #638270
+$light = #DB9E36
+$lighter = #EDE059
+
+$basefont = Arial, sans-serif
+$displayfont = Times New Roman, Georgia, serif
+
+inline-block()
+  display inline-block
+  *display block
+  zoom 1
+
+trans(value, color=#000)
+  background linear-gradient-image(1px top, rgba(color, value), rgba(color, value)) repeat
+
+body
+  background $darkest
+  font-family $basefont
+
+  h1 
+    color $lighter
+    font-family $displayfont
+    
+.button
+  text-decoration none
+  display block
+  padding 1em 2em
+  inline-block()
+  color $mid
+  trans(0.7, $light)
+  border-radius(1em)
+  transition(box-shadow 1s)
+  
+  
+  &:hover
+    color $darkest
+    background linear-gradient-image(60px top, lighten($light, 20), darken($light, 30))
+    box-shadow(0 0 20px #fff)
+    
+    
+  &:active
+    color darken($darkest, 20)
+    box-shadow(0 0 20px #000)
+    background linear-gradient-image(60px top, darken($light, 30), lighten($light, 20))
