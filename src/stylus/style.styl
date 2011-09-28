@@ -43,16 +43,16 @@ body
   display block
   padding 1em 2em
   inline-block()
-  color $mid
-  trans(0.7, $light)
+  color #fff
+  background linear-gradient-image(60px top, lighten($light, 10), darken($light, 20))
   border-radius(1em)
-  transition(box-shadow 1s)
+  transition(all 1s)
   
   
   &:hover
-    color $darkest
-    background linear-gradient-image(60px top, lighten($light, 20), darken($light, 30))
+    background linear-gradient-image(60px top, lighten($light, 20), darken($light, 20))
     box-shadow(0 0 20px #fff)
+    text-shadow 0 0 8px #000
     
     
   &:active

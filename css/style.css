@@ -13,21 +13,21 @@ body h1 {
   display: inline-block;
   *display: block;
   zoom: 1;
-  color: #638270;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAABmJLR0QA/wD/AP+gvaeTAAAADUlEQVQImWO4Pc90EwAGZwJhPHhZyAAAAABJRU5ErkJggg==") repeat;
+  color: #fff;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8CAIAAAAok0etAAAABmJLR0QA/wD/AP+gvaeTAAAAQ0lEQVQImW2NyQ3AIBAD0VZKjZSUQmZ4rBKQlZcPWZ7xrFlqga1Sfr5VuPzpge4iE7vcNovgenEJFsF9f/8+CO7Zghs7tLKHly2LOwAAAABJRU5ErkJggg==");
   -webkit-border-radius: 1em;
   -moz-border-radius: 1em;
   border-radius: 1em;
-  -webkit-transition: box-shadow 1s;
-  -moz-transition: box-shadow 1s;
-  transition: box-shadow 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s;
 }
 .button:hover {
-  color: #0c2538;
-  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8CAIAAAAok0etAAAABmJLR0QA/wD/AP+gvaeTAAAAQUlEQVQImYWOwQ0AIAjEDPM7l7O4RA8fGkVN9EF4HC2XaskmKQxjuwFbxnYnAx1szJans7xZXn+YntvlptDz07EBODWyOVdpWH8AAAAASUVORK5CYII=");
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA8CAIAAAAok0etAAAABmJLR0QA/wD/AP+gvaeTAAAARElEQVQImY2OwQnAMAwDi+bvXp0lQ+SuD0NTTAr9yfIh6RjXGSBKhEfz0mLdzojFbfjlG5hRP/4tW4rHTXfv+J/dNyk3XZKyij3EetAAAAAASUVORK5CYII=");
   -webkit-box-shadow: 0 0 20px #fff;
   -moz-box-shadow: 0 0 20px #fff;
   box-shadow: 0 0 20px #fff;
+  text-shadow: 0 0 8px #000;
 }
 .button:active {
   color: #000;
