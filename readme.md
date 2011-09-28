@@ -1,5 +1,7 @@
 # Jade and Stylus in 15 minutes
-## a.k.a. How to create Harinder's G-Spot
+
+
+*a.k.a. How to create Harinder's G-Spot*
 
 It's all in the `src` folder. Feel free to fork me uhh... Harinder's g-spot err... this repo. 
 
@@ -18,9 +20,9 @@ All files in `src` folder compiles into the root folder. Feel free to create you
 
 ## Resources
 
-`jade`: https://github.com/visionmedia/jade
-`stylus`: http://learnboost.github.com/stylus/
-`nib`: https://github.com/visionmedia/nib
+  * `jade`: https://github.com/visionmedia/jade
+  * `stylus`: http://learnboost.github.com/stylus/
+  * `nib`: https://github.com/visionmedia/nib
 
 Bonus: 
 `coffeescript`: http://jashkenas.github.com/coffee-script/
